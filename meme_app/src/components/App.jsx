@@ -1,10 +1,13 @@
-import NavBar from "./NavBar"
+import Header from "./Header"
+import Meme from "./Meme"
 
-function App() {
+export default function App() {
 
   return(
-    <NavBar/>
+    <div>
+    <Header/>
+    <Meme/>
+    </div>
   )
-}
 
-export default App
+}

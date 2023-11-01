@@ -1,5 +1,38 @@
-.Nav{
-    background-color: aqua;
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: "Karla",sans-serif;
+    margin:0;
+}
+
+.Header{
+    background: rgb(229, 166, 176);
     display: flex;
+    height: 70px;
+    color: rgb(123, 51, 156);
+    padding: 0px;
+    border-radius: 3px;
     
+}
+.Header_image{
+    height: 100%;
+    
+}
+.Header-title-1{
+    margin:auto;
+    margin-left: 20px;
+    
+    
+}
+a{
+    text-decoration: none !important;
+}
+.Header-title-2{
+    margin-right: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(78, 117, 27);
+    font-style: italic;
 }
