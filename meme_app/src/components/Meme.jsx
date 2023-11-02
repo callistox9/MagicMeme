@@ -4,7 +4,17 @@ export default function Meme(){
 
     return(
 
-        <h1>Hello</h1>
+      <main>
+<form>
+<input className = "form-input"type="text"   ></input>
+<input className ="form-input"type ="text"  ></input>
+<button classNAme="form-button">Get a new meme image</button>
+
+
+</form>
+
+
+      </main>
 
 
 
