@@ -35,4 +35,31 @@ a{
     font-weight: bolder;
     color: rgb(78, 117, 27);
     font-style: italic;
+    font-family: "Karla",sans-serif;
+}
+main{
+    padding: 40px;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+}
+form{
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr; /* 2 rows of 40px each, with 1 fraction division*/
+    gap:17px;
+}
+
+.form-button{
+   grid-column: 1 /-1;
+   background-color: rgb(221, 129, 221);
+   border-color: rgb(221, 129, 221);
+   font-family: "Karla",sans-serif;
+   border-radius: 5px;
+   height: 50px;
+  
+}
+.form-input{
+    text-indent:40%;
+   border-radius: 5px;
+
 }
