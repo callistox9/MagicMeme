@@ -4,6 +4,7 @@ export default function Meme(){
 
 
   let url;
+  
 function MemeDisplay()
 {
   const memeName=memesData.data.memes.name;
@@ -43,3 +44,10 @@ onClick={MemeDisplay}
 
 
 }
+
+
+
+
+
+
+
