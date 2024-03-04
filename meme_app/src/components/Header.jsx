@@ -4,6 +4,7 @@ export default function Header()
     return(
 
         <header className="Header">
+            
            
            <img src="/src/assets/Header_logo-removebg-preview.png"  ></img>
             <h2 className="Header-title-1"><a  target="_blank" href="https://letterpile.com/humor/Top-30-Funny-Einstein-Jokes-15-Einstein-Jokes-about-Relativity-Absent-Minded-Lecturer-and-Confusing-Jokes">Meme Generator</a></h2>
