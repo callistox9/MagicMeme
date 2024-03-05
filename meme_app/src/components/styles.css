@@ -8,9 +8,13 @@ body{
     margin:0;
     
 }
+/*
+A <Body background> element and styling it to a background-size:cover
+*/
 .background{
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
 }
 
 .Header{
