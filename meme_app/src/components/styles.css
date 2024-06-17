@@ -27,27 +27,31 @@ A <Body background> element and styling it to a background-size:cover
     
 }
 .Header_image{
-    height: 100%;
-    
+    height: 100%;    
 }
+
 .Header-title-1{
     margin:auto;
     margin-left: 20px;
-    
-    
+    color: rgb(78, 117, 27);  
 }
 a{
     text-decoration: none !important;
+    
+}
+a:visited{
+    color: rgb(78, 117, 27);
 }
 .Header-title-2{
     margin-right: 20px;
     padding-top: 20px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bolder;
     color: rgb(78, 117, 27);
     font-style: italic;
     font-family: "Karla",sans-serif;
 }
+
 main{
     padding: 40px;
     padding-top: 60px;
