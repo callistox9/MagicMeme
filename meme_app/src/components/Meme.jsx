@@ -16,7 +16,7 @@ function MemeDisplay()
     return(
 
       <main>
-<form>
+<div>
 <input 
 className = "form-input"
 type="text"
@@ -33,7 +33,7 @@ onClick={MemeDisplay}
 >🤣Get a new meme image 🤣</button>
 
 
-</form>
+</div>
 
 
       </main>
