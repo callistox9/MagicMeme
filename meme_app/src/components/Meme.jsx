@@ -16,7 +16,7 @@ function MemeDisplay()
     return(
 
       <main>
-<div>
+<div className="input">
 <input 
 className = "form-input"
 type="text"
@@ -32,22 +32,9 @@ onClick={MemeDisplay}
 
 >🤣Get a new meme image 🤣</button>
 
-
 </div>
-
-
-      </main>
-
-
-
+ </main>
     )
-
-
 }
 
-
-
-
-
-
-
+const [count, setcount]= React.useState(0)

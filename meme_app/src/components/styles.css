@@ -58,7 +58,7 @@ main{
     padding-left: 60px;
     
 }
-form{
+.input{
     display: grid;
     grid-template: 40px 40px/ 1fr 1fr; /* 2 rows of 40px each, with 1 fraction division*/
     gap:17px;
