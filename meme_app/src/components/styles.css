@@ -14,6 +14,10 @@ A <Body background> element and styling it to a background-size:cover
 .background{
     background-repeat:no-repeat;
     background-size:cover;
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     
 }
 
@@ -65,16 +69,24 @@ main{
 }
 
 .form-button{
-   grid-column: 1 /-1;
+    grid-column: 1 /-1;
    background-color: rgb(221, 129, 221);
    border-color: rgb(221, 129, 221);
    font-family: "Karla",sans-serif;
    border-radius: 5px;
-   height: 50px;
-  
+   height: 40px;
+   
 }
 .form-input{
     text-indent:40%;
    border-radius: 5px;
 
+}
+.image--displayed{
+   display: block;
+    
+    width: 800px; 
+    height: 800px;
+    border-radius: 15px;  
+    margin: 20px auto 0 auto;
 }

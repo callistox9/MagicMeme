@@ -3,16 +3,19 @@ import memesData from "./memesData";
 export default function Meme(){
 
 
-  let url;
+  let url1;
+  const [memeImage, setMemeImage]=React.useState("")
   
 function MemeDisplay()
 {
-  const memeName=memesData.data.memes.name;
+  //const memeName=memesData.data.memes.name;
   const memesArray=memesData.data.memes;
   const randomNumber=Math.floor(Math.random()*memesArray.length);
-   url=memesArray[randomNumber].url
-  
+   url1=memesArray[randomNumber].url
+  setMemeImage(url1)
+
 }
+
     return(
 
       <main>
@@ -27,14 +30,25 @@ placeholder="Top Text">
  type ="text" 
  placeholder="Bottom Text">
 </input>
+
 <button className="form-button"
 onClick={MemeDisplay}
 
 >🤣Get a new meme image 🤣</button>
 
 </div>
+
+<img className="image--displayed" src ={memeImage}></img>
+
  </main>
     )
 }
+/*isGoingOut==true;
+const k = (isGoingOut )? "yes " : "no";
+console.log(k);
 
-const [count, setcount]= React.useState(0)
+function changeMind()
+{
+
+}
+<button onClick></button>*/
