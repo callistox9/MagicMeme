@@ -5,11 +5,14 @@ permissions:
   issues: write
   id-token: write
 
-trigger:
-- main
+on:
+  push:
+    branches:
+      - "main"
 
-pool:
-  vmImage: ubuntu-latest
+jobs:
+    pipeline:
+     runs-on: ubuntu-latest
 
 steps:
 - task: NodeTool@0
