@@ -45,8 +45,6 @@ Enjoy your custom meme!
 
 #### Contributing
 
-We welcome contributions! If you would like to contribute to this project, please follow these steps:
-
 Fork the repository
 Create a new branch (git checkout -b feature-branch)
 Make your changes
