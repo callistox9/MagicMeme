@@ -3,6 +3,7 @@
 Welcome to the **MemeMagic!** This application allows users to randomly generate memes using an API and customize them by adding top and bottom text. The project is built using HTML, CSS, JavaScript, ReactJS, and NodeJS.
 
 #### Features
+ xcv,mnbmndvkjadsb
 
 Randomly generates memes using an API
 Allows users to add custom top and bottom text to the memes
